@@ -548,10 +548,13 @@
 
 /* footer */
 .footer{  
-  height: 728px;
+  height: 639px;
   background-color: var(--blue_color);
   color: var(--white_color);
-  position: relative;  
+  position: relative; 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal; 
 }
 .footer__logo{
   width: 230px;
@@ -561,16 +564,13 @@
   text-align: center;
   position: absolute;
   box-sizing: border-box;
-  left: 603px;
+  left: calc(50% - 115px);
   top: -30px;    
 }
 .footer__text{  
   width: 770px;
   min-height: 61px;
-  padding: 158px 0px 0px 150px;  
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  padding: 158px 0px 0px 150px;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 2px;
@@ -578,6 +578,7 @@
 .footer__social{
   display: flex;
   margin-left: 150px;
+  margin-right: 150px;
   padding-top: 80px;
 }
 .footer__icon{
@@ -600,19 +601,18 @@
   min-height: 70px;
 }
 .footer__widgets{
-  margin: 80px 0px 0px 150px;
+  margin: 80px 300px 0px 150px;
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row;  
 }
 .footer__widget{
+  width: 135px;
   display: flex;
   flex-direction: column;
-  margin-right: 161px;
+  margin-right: 150px;
 }
 .footer__widgets h3{
   font-family: Roboto Condensed;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -620,9 +620,7 @@
   margin-bottom: 22px;
 }
 .footer__widgets a, .footer__widgets p{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  width: 135px;
   font-size: 12px;
   line-height: 20px;
   color: var(--white_color);
@@ -630,15 +628,13 @@
 .footer__moveToUp a{
   width: 99px;
   height: 24px;
-  margin: 7px 0px 11px 1205px;
+  margin: 7px 0px 11px 83.7%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .footer__moveToUp a span{
   font-family: Roboto Condensed;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 2px;
