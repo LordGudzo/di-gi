@@ -36,9 +36,9 @@
 
 @media only screen and (max-width: 1024px){
   /* intro */
-  .intro{
+  .intro,.intro__background{
     height: 623px;
-  }
+  }  
   .intro__title{  
     width: 588.95px;
     height: 180px;
@@ -55,14 +55,14 @@
     font-size: 18px;
     line-height: 20px;    
   }
-  .intro__pagination{
-    margin-top: 112px;
+  .owl-dots{
+    top: 528px;
   }
-  .intro__pagination div:nth-of-type(2n+1){
-    background-color: #2B4074;
+  .owl-dot{
+    background-color: #2B4074 !important;
   }
-  .intro__pagination div:nth-of-type(2n){
-    border: 1px solid #476E4D;
+  .owl-dot.active{    
+    border: 1px solid #476E4D !important;
   }
 
   /* promo */
@@ -302,12 +302,11 @@
   .footer__widget{
     margin-right: 70px;
   }
-
 }
 
 @media only screen and (max-width: 768px){
   /* intro */
-  .intro{
+  .intro,.intro__background{
     height: 465px;
   }
   .intro__title{  
@@ -322,8 +321,8 @@
     height: 38px;
     margin: 31px 0px 32px 0px;    
   }
-  .intro__pagination{
-    margin-top: 50px;
+  .owl-dots{
+    top: 403px;
   }
 
   /* promo */
@@ -487,7 +486,7 @@
 
 @media only screen and (max-width: 640px){
   /* intro */
-  .intro{
+  .intro,.intro__background{
     height: 386px;
   }
   .intro__title{  
@@ -497,9 +496,9 @@
     line-height: 60px;  
     text-align: center;    
   }  
-  .intro__pagination{
-    margin-top: 53px;
-  }
+ .owl-dots{
+   top: 326px;
+ }
 
   /* promo */
   .promo{
@@ -760,7 +759,7 @@
     margin: 20px 0px;  
   }
   /* intro */
-  .intro{
+  .intro,.intro__background{
     height: 193px;
   }
   .intro__title{  
@@ -771,8 +770,8 @@
     line-height: 28px;  
     text-align: center;    
   }
-  .intro__pagination{
-    margin-top: 0px;
+  .owl-dots{
+    top: 163px;
   }
   .intro__arrow, .intro__button, .intro__text{
     display: none;
